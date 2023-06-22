@@ -937,25 +937,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1352783531}
     m_Modifications:
-    - target: {fileID: 5389302535157663540, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
-      propertyPath: itemKey
-      value: 'EnrollmentDesks_0 '
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389302535157663540, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
-      propertyPath: itemCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389302535157663540, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
-      propertyPath: nextToUnlock
-      value: 
-      objectReference: {fileID: 761884375}
     - target: {fileID: 8807464017633803500, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8807464017780812426, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
+    - target: {fileID: 8807464017898653745, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8807464018703250201, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_RootOrder
@@ -1004,10 +992,6 @@ PrefabInstance:
     - target: {fileID: 8807464018703250202, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_Name
       value: enrollment_desk_Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 8807464018845030593, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
-      propertyPath: m_Name
-      value: Case Unlock_0
       objectReference: {fileID: 0}
     - target: {fileID: 8807464018845030593, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_IsActive
@@ -1383,6 +1367,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2052960068}
     - target: {fileID: 8807464017633803500, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807464017898653745, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3303,11 +3291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213dd8dba260f294380ddb3d1fa81623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &761884375 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8807464018703250202, guid: e88a68ff4900f9c42a605e1f0f55d4ba, type: 3}
-  m_PrefabInstance: {fileID: 348829784}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &775422209
 GameObject:
   m_ObjectHideFlags: 0
@@ -7019,20 +7002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedccaee59e52c54aba3a93b88298e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: 5434f7f89d028ee42a09fddeea24177e, type: 3}
-  textureAngle: 20.5
-  scale: 0.3
-  pixelsHotSpot: {x: 0, y: 0}
-  smoothness: 0.8
-  maxTurn: 15
-  pos: {x: 0, y: 0}
-  rect:
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  angle: 0
-  prev_position: {x: 0, y: 0}
 --- !u!4 &1565686896
 Transform:
   m_ObjectHideFlags: 0
