@@ -1,0 +1,20 @@
+OnMouseEnter Instead of Raycast
+ I am using OnMouseDown instead of Raycast because Raycast is more expensive and have unnaccesary functionalities which in my case I don't specificly needed.
+
+  - Raycast is going to use tag which is string so I don't like it
+  - Raycast is going to be called in update
+  - Plus it is in Physics class which is again not needed. 
+
+What My GameManager Will Do
+ I probably use for handling game states but I don't see in this game I need it.
+
+
+About Delegates: 
+ I am using Actions which is easy and advance way of handling events in c#. I also use Func which is also a special Delegate which also return type.   
+
+About Interface:
+ I think using Interface for processing student will be helpful as weather you go for enrollment, exam, or any other stall. Student will w8 and some particles plays. 
+
+   - Overall interface will help to seprate student processing functionalities from enrollment stall etc. 
+
+ 
